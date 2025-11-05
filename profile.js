@@ -27,7 +27,7 @@ fetch(url, fetchData)
                 <p>FirstName: ${value.firstName}</p>
                 <p>LastName: ${value.lastName}</p>
                 <p>Date of Birth: ${value.birthDate}</p>
-                <p>Gender: ${value.gender}</p>
+                <p>Gender: ${value.gender.charAt(0).toUpperCase() + value.gender.slice(1)}</p>
                 <p>Bloodgroup: ${value.bloodGroup}</p>
             </div>
         `
